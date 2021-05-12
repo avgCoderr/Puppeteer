@@ -13,7 +13,7 @@ const puppeteer = require("puppeteer");
     await delay(5000);
 
     //Change to contact you want to send messages to
-    const contactName = "CS Freshers";
+    const contactName = "Madhav Madhusoodanan CSE BPPC";
     await page.click(`span[title='${contactName}']`);
     await page.waitForSelector(".TbtXF");
 
@@ -22,7 +22,7 @@ const puppeteer = require("puppeteer");
     await editor.focus();
 
     //Amount of messages you want to send
-    const amountOfMessages = 8;
+    const amountOfMessages = 50;
 
     //Loops through cycle of sending message
     for (var i = 0; i < amountOfMessages; i++) {
