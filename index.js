@@ -22,7 +22,7 @@ const puppeteer = require("puppeteer");
     await editor.focus();
 
     //Amount of messages you want to send
-    const amountOfMessages = 50;
+    const amountOfMessages = 69;
 
     //Loops through cycle of sending message
     for (var i = 0; i < amountOfMessages; i++) {
